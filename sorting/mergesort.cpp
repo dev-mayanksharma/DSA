@@ -48,7 +48,7 @@ void mergeSort(vector<int> &arr, int low,int high){ // pass by reference , autom
 }
 
 int main() {
-    vector<int> arr = {5, 2, 8,21,5,556,51,516,61,6,8,5,3,45,55, 1, 3};
+    vector<int> arr = {5, 2, 8,21,5,556,51,516,61,6,8,5,3,45,55, 1, 3}; 
 
     mergeSort(arr, 0, arr.size() - 1);
 
